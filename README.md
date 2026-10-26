@@ -16,11 +16,13 @@ A aplicação desenvolvida é um site institucional responsivo integrado a um as
 ## 3. Personalizações Realizadas (HTML, CSS e JavaScript)
 Para ir além das limitações visuais do template no Framer, aplicou-se personalização com **CSS**.
 
-Foram criados seletores específicos para a seção de preços (`#pricing`), focando nos elementos `PricingHeader` e `PricingSubtitle`. Essa intervenção em CSS garantiu que o subtítulo respeitasse a largura definida, quebrasse as linhas corretamente e mantivesse o alinhamento centralizado em todos os dispositivos, assegurando a legibilidade e a responsividade.
+- Foram criados seletores específicos para a seção de preços (`#pricing`), focando nos elementos `PricingHeader` e `PricingSubtitle`. Essa intervenção em CSS garantiu que o subtítulo respeitasse a largura definida, quebrasse as linhas corretamente e mantivesse o alinhamento centralizado em todos os dispositivos, assegurando a legibilidade e a responsividade.
 
-Além disso, foi injetado código customizado (**JavaScript**) no Framer para capturar as mensagens do usuário e enviá-las via método POST para o endpoint do Cloudflare.
+- Além disso, foi injetado código customizado (**JavaScript**) no Framer para capturar as mensagens do usuário e enviá-las via método POST para o endpoint do Cloudflare.
 
 <img width="1611" height="830" alt="Captura de tela 2026-10-13 141538" src="https://github.com/user-attachments/assets/d8622aaa-3223-4c13-af2f-1f3012035a34" /> <img width="1893" height="901" alt="Captura de tela 2026-10-13 144742" src="https://github.com/user-attachments/assets/a15ce8e1-ca07-4f09-bfdf-5cbf17cece4e" /> <img width="937" height="816" alt="Captura de tela 2026-10-24 154755" src="https://github.com/user-attachments/assets/8b6b8a30-69c3-40c6-9e17-e15653c40238" />
+
+- **Desenvolvimento Completo do Chatbot:** Criação de toda a estrutura da janela de chat em HTML, estilização visual em CSS para combinar com a identidade da marca e programação dos eventos em JavaScript (abrir/fechar o chat e disparar a mensagem do usuário).
 
 *Figura 2: Seção de Preços com ajuste de largura e alinhamento via CSS customizado.*
 
